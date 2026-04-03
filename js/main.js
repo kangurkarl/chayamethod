@@ -1,5 +1,5 @@
 /* ============================================
-   SheRise — Main JavaScript
+   Chaya Method — Main JavaScript
    ============================================ */
 
 (function () {
@@ -58,14 +58,14 @@
       enBtn.classList.add('active');
       thBtn.classList.remove('active');
     }
-    localStorage.setItem('sherise-lang', lang);
+    localStorage.setItem('chayamethod-lang', lang);
   }
 
   enBtn.addEventListener('click', () => setLang('en'));
   thBtn.addEventListener('click', () => setLang('th'));
 
   // Init language from localStorage
-  const savedLang = localStorage.getItem('sherise-lang') || 'en';
+  const savedLang = localStorage.getItem('chayamethod-lang') || 'en';
   setLang(savedLang);
 
   // ---- Smooth scroll for anchor links ----
