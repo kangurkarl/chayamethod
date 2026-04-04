@@ -276,6 +276,14 @@ body:not(.thai-hidden) [data-lang-th] { display: inline; }
   color: var(--color-gray-light);
   border: 1px solid var(--color-cream-dark);
 }
+.about__photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+  border: 8px solid var(--color-cream);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+}
 .about__copy p {
   margin-bottom: 20px;
   color: var(--color-gray);
@@ -571,6 +579,7 @@ body:not(.thai-hidden) [data-lang-th] { display: inline; }
   .services__grid { grid-template-columns: 1fr; max-width: 520px; margin-left: auto; margin-right: auto; }
   .about__grid { grid-template-columns: 1fr; gap: 48px; }
   .about__image-placeholder { max-width: 400px; }
+  .about__photo { max-width: 400px; margin: 0 auto; }
 }
 
 @media (max-width: 768px) {
