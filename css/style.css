@@ -308,6 +308,7 @@ body:not(.thai-hidden) [data-lang-th] { display: inline; }
 .services__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: start;
   gap: 32px;
   margin-top: 48px;
 }
