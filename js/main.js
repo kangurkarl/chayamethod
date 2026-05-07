@@ -1,5 +1,5 @@
 /* ============================================
-   Chaya Method — Main JavaScript
+   Chaya Method - Main JavaScript
    ============================================ */
 
 (function () {

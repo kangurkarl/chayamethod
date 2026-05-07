@@ -1,5 +1,5 @@
 /* ============================================
-   Chaya Method — Premium Coaching Website
+   Chaya Method - Premium Coaching Website
    ============================================ */
 
 :root {
@@ -426,6 +426,13 @@ body:not(.thai-hidden) [data-lang-th] { display: inline; }
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
+}
+@media (min-width: 769px) {
+  .audience-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: calc(50% - 16px);
+    justify-self: center;
+  }
 }
 .audience-card {
   padding: 48px;
