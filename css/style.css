@@ -447,10 +447,20 @@ body:not(.thai-hidden) [data-lang-th] { display: inline; }
 }
 .audience-card__number {
   font-family: var(--font-serif);
-  font-size: 2.5rem;
-  font-weight: 300;
-  color: var(--color-cream-dark);
+  font-size: 2.75rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--color-gold);
   margin-bottom: 16px;
+}
+.audience-card__number::after {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 2px;
+  margin-top: 12px;
+  background: var(--color-gold);
+  opacity: 0.5;
 }
 .audience-card__title {
   font-family: var(--font-serif);
