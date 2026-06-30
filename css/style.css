@@ -489,10 +489,10 @@ body:not(.thai-hidden) [data-lang-th] { display: inline; }
   margin-bottom: 20px;
 }
 .testimonial-card__quote {
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
-  font-style: italic;
-  line-height: 1.7;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-style: normal;
+  line-height: 1.8;
   color: var(--color-black);
   margin-bottom: 28px;
 }
